@@ -18,4 +18,4 @@ git push
 git clone git@github.com:waltsun/test.git
 ```
 
-更详细的在 [Github](https://www.liaoxuefeng.com/wiki/896043488029600)
+更详细的在 [廖雪峰的网站](https://www.liaoxuefeng.com/wiki/896043488029600)

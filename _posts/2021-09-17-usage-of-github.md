@@ -2,7 +2,7 @@
 layout: post
 title: Github的使用
 subtitle: 个人笔记系列
-tags: [test]
+tags: [notes]
 ---
 
 ```

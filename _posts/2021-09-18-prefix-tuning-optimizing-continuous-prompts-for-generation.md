@@ -15,9 +15,23 @@ tags: [paper reading]
 
 （连续）Prompt的开山之作。
 
+# motivation和idea
+
 finetune作为一个有效将large pretrained language model运用在downstream tasks的方法，其中一个缺点在于对于每个downstream tasks都需要储存model的完整参数。
-所以，文章针对生成类任务提出一个lightweight的替换方案prefix-tuning。
-该方法固定大部分模型参数，只优化参数较少的*continuous task-specific* vector，该vector被称作prefix。
+通常的解决方法是lightweight finetuning，即固定大部分pretrained parameters而只训练较小的modules。
+
+这种想法的核心在于，如何构造一种高效的结构、如何选取预训练模型中需要tuning的参数子集。
+前人方法中，有考虑ablate away部分模型权重；训练side network与预训练模型加和；在layer之间插入task-specific layers(adapters)。
+
+而GPT-3不需要task-specific tuning就可以部署在下游任务上。
+GPT-3使用prompting的方法，只需预设一些natural language形式的task-specific instruction，就可以完成对应的任务。
+
+这篇文章inspired by prompting，针对生成类任务（natural language generation(NLG) tasks）提出一个finetune的lightweight alternative，即prefix-tuning。
+
+该方法固定大部分模型参数，构造 a sequence of continuous task-specific vectors 用作输入，将其称之为*prefix*。
+这种prefix就像a sequence of "virtual tokens"，但是由free parameters构成。
+
+# 实验结果
 
 在GPT-2做table-to-text generation任务，在BART做summarization任务。
 在只学习0.1%参数的情况下，full data setting下获得comparable performance；low-data setting下outperform finetune；extrapolates better to examples with topics unseen during training.

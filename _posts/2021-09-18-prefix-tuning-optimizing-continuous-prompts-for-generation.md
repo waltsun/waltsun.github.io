@@ -5,7 +5,11 @@ subtitle: 文章阅读系列
 tags: [paper reading]
 ---
 
-作者 Xiang Lisa Li, Stanford University; Percy Liang, Stanford University.
+Xiang Lisa Li, Stanford University;
+
+Percy Liang, Stanford University.
+
+1st. Jan, 2021
 
 [arXiv首页](https://arxiv.org/abs/2101.00190)
 
@@ -22,6 +26,7 @@ finetune作为一个有效将large pretrained language model运用在downstream 
 
 这种想法的核心在于，如何构造一种高效的结构、如何选取预训练模型中需要tuning的参数子集。
 前人方法中，有考虑ablate away部分模型权重；训练side network与预训练模型加和；在layer之间插入task-specific layers(adapters)。
+而([Subramani et al., 2020](https://arxiv.org/abs/1907.04944))发现通过优化一个sentence-wise continuous vector可以让pretrained LSTM language model重建任意的句子。
 
 而GPT-3不需要task-specific tuning就可以部署在下游任务上。
 GPT-3使用prompting的方法，只需预设一些natural language形式的task-specific instruction，就可以完成对应的任务。

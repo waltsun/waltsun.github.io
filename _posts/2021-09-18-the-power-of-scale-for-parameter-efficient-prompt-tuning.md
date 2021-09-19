@@ -9,4 +9,14 @@ tags: [paper reading]
 
 [论文pdf](https://arxiv.org/pdf/2104.08691.pdf)
 
-作者 Brian Lester; Rami Al-Rfou; Noah Constant. 来自Google Research.
+Brian Lester;
+
+Rami Al-Rfou;
+
+Noah Constant.
+
+Google Research.
+
+EMNLP 2021.
+
+continuous prompts(soft prompts)。效果随参数规模变大而增强，并在参数量超过billion量级时效果与finetune相当。

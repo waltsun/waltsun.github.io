@@ -17,7 +17,7 @@ Percy Liang, Stanford University.
 
 [代码](https://github.com/XiangLi1999/PrefixTuning)
 
-（连续）Prompt的开山之作。
+（连续）Prompt的重要paper。
 
 # motivation和idea
 

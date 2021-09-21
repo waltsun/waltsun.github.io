@@ -5,10 +5,6 @@ subtitle: 文章阅读系列
 tags: [paper reading]
 ---
 
-[arXiv首页](https://arxiv.org/abs/2104.08691)
-
-[论文pdf](https://arxiv.org/pdf/2104.08691.pdf)
-
 Brian Lester;
 
 Rami Al-Rfou;
@@ -16,6 +12,10 @@ Rami Al-Rfou;
 Noah Constant.
 
 Google Research.
+
+[arXiv首页](https://arxiv.org/abs/2104.08691)
+
+[论文pdf](https://arxiv.org/pdf/2104.08691.pdf)
 
 EMNLP 2021.
 

@@ -5,9 +5,11 @@ subtitle: 个人笔记系列
 tags: [notes]
 ---
 
+一些常用的git指令
+
 ```
 git init
-git add YourFile
+git add YourFile.file
 git commit -m "Your Explanation for This Commit"
 git status
 git diff  # 能看到现在文件与上次commit的区别

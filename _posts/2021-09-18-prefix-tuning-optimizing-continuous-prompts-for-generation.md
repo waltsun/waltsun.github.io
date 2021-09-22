@@ -9,13 +9,13 @@ Xiang Lisa Li, Stanford University;
 
 Percy Liang, Stanford University.
 
-1st. Jan, 2021
-
 [arXiv首页](https://arxiv.org/abs/2101.00190)
 
 [pdf](https://arxiv.org/pdf/2101.00190.pdf)
 
 [代码](https://github.com/XiangLi1999/PrefixTuning)
+
+1st. Jan, 2021
 
 （连续）Prompt的重要paper。
 

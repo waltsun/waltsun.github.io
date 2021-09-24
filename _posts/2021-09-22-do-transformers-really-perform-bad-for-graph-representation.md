@@ -87,4 +87,7 @@ $A_{ij} = \frac{(h_i W_Q)(h_j W_K)^T}{\sqrt{d}} + b_{\phi(v_i, v_j)} + c_{ij}, w
 
 ## layer
 
-$$LN = Layer Normalization$$
+$$LN = Layer Normalization\\
+MHA = Multi-Head self-Attention\\
+FFN = Feed-Forward Blocks\\
+$$

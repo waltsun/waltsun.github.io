@@ -51,7 +51,7 @@ Graphormer为了解决这个问题，使用了集中structural encoding来利用
 
 graphormer使用degree centrality作为additional signal。
 
-$h_i^{(0)} = x_i + z^-_{deg^-(v_i)} + z^+_{deg^+(v_i)}$
+$$h_i^{(0)} = x_i + z^-_{deg^-(v_i)} + z^+_{deg^+(v_i)}$$
 
 ## spatial encoding
 
@@ -64,7 +64,7 @@ $\phi$的每种取值对应一个learnable scalar作为self-attention的bias。
 
 $A_{ij}$是Query-Key prodect matrix $A$的第(i,j)元素。
 
-$A_{ij} = \frac{(h_i W_Q)(h_j W_K)^T}{\sqrt{d}} + b_{\phi(v_i, v_j)}$
+$$A_{ij} = \frac{(h_i W_Q)(h_j W_K)^T}{\sqrt{d}} + b_{\phi(v_i, v_j)}$$
 
 这种设计相较于传统的GNN（基于聚合的GNN），每个点能干预的点不再受限于与它相交的点；
 同时，$b_{\phi(v_i, v_j)}$让它们能够adaptively获取其它点的信息。
@@ -83,11 +83,37 @@ $A_{ij} = \frac{(h_i W_Q)(h_j W_K)^T}{\sqrt{d}} + b_{\phi(v_i, v_j)}$
 对于任何两点$(v_i, v_j)$，找到（其中一个）最短路$SP_{ij} = (e_1, e_2, \cdots, e_N)$，计算edge feature在embedding之后、沿着SP的平均值；
 然后作为额外的bias放入attention中。
 
-$A_{ij} = \frac{(h_i W_Q)(h_j W_K)^T}{\sqrt{d}} + b_{\phi(v_i, v_j)} + c_{ij}, where c_{ij} = \frac{1}{N} \sum^N_{n=1} x_{e_n} (w^E_n)^T$
+$$A_{ij} = \frac{(h_i W_Q)(h_j W_K)^T}{\sqrt{d}} + b_{\phi(v_i, v_j)} + c_{ij}, where c_{ij} = \frac{1}{N} \sum^N_{n=1} x_{e_n} (w^E_n)^T$$
 
 ## layer
 
-$$LN = Layer Normalization\\
-MHA = Multi-Head self-Attention\\
-FFN = Feed-Forward Blocks\\
-$$
+- LN = Layer Normalization
+- MHA = Multi-Head self-Attention
+- FFN = Feed-Forward Blocks
+
+$$h'^{(l)} = MHA(LN(H^{(l-1)})) + h^{(l-1)}\\
+h^{(l)} = FFN(LN(h'^{(l)})) + h'^{(l)}$$
+
+## sepcial node
+
+过去有很多graph pooling的方法。
+本文通过添加一个特殊节点[VNode]并让每个点都与其连接，用其做最终的节点表示。
+
+特别的，为$b_{\phi([vNode], v_j)}$和$b_{v_i, \phi([vNode])}$另设不同的learnable scalar。
+
+# 结果
+
+## 理论分析
+
+graphormer和aggregation-based GNN效果有何差距？
+
+传统的GNN可以视为graphormer的特例；
+理论上，GNN的能力上限是1-WL test，而graphormer的能力超过1-WL test。
+
+Graph pooling的方式上，GNN使用的是简单的加和或取平均；
+而virtual node加self-attention可以更好地聚合信息。
+
+## 实验结果
+
+# Ablation Study
+

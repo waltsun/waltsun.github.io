@@ -87,4 +87,4 @@ $A_{ij} = \frac{(h_i W_Q)(h_j W_K)^T}{\sqrt{d}} + b_{\phi(v_i, v_j)} + c_{ij}, w
 
 ## layer
 
-$$LN$$
+$$LN = Layer Normalization$$

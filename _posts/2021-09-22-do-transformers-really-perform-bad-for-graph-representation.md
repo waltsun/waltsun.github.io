@@ -115,5 +115,5 @@ Graph pooling的方式上，GNN使用的是简单的加和或取平均；
 
 ## 实验结果
 
-# Ablation Study
+## Ablation Study
 

@@ -115,5 +115,32 @@ Graph pooling的方式上，GNN使用的是简单的加和或取平均；
 
 ## 实验结果
 
+前人数据集：
+- [GIN](https://arxiv.org/abs/1810.00826): IMDB-B, IMDB-M, RDT-B, RDT-M5K, COLLAB, MUTAG, PROTEINS, PTC, NLI1
+- [PretrainGNN/AttrMasking, ContextPred](https://arxiv.org/abs/1905.12265), [GraphLoG](https://arxiv.org/abs/2106.04113), [GraphCL](https://arxiv.org/abs/2010.13902)
+  - molecule/chemistry: ZINC15 with 2 million, 8 datasets in MoleculeNet
+  - biology: 395K PPI networks, in which 88K labeled
+
+本文采用的数据集来自：
+- OGB-LSC quantum chemistry regression (i.e., PCQM4M-LSC): 本文时最大的graph-level prediction dataset，3.8M graph，回归任务
+- ogbg-molhiv, ogbg-molpcba from OGB: 438K/41K，binary分类
+- ZINC from benchmarking-GNN: 12K，回归任务
+
+关于训练耗时，所有模型在8 NVIDIA V100 GPUS训练了2天。
+
 ## Ablation Study
 
+从实验结果来看，node relation encoding的作用最显著。
+无论是作者提出的spatial encoding，还是作为baseline的laplacian PE都对效果有着极高的提升。
+
+# 小结
+
+作者提到了一些原生transformer迁移到graph领域的一些尝试：
+- 。
+- [Dwivedi et al.]()认为应当attention机制应当只聚合邻居的信息、以此保证graph sparsity。提出模型GT，用邻接矩阵作为attention mask、用Laplacian eigenvector作为positional encoding。
+- 使用novel full Laplacian spectrum来学习position信息，效果超过GT。
+
+文末提出几个待解决问题：
+- self-attention的平方复杂度、efficient graphormer
+- 特定数据集上的domain knowledge-powered encodings
+- applicable graph sampling strategy for node representation extraction?

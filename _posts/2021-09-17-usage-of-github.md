@@ -8,6 +8,8 @@ tags: [notes]
 一些常用的git指令
 
 ```
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"
 git init
 git add YourFile.file
 git commit -m "Your Explanation for This Commit"

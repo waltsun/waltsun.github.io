@@ -20,6 +20,8 @@ git log --pretty=oneline
 git remote add origin git@github.com:waltsun/test.git  # 本地git绑定远程空repo
 git push
 git clone git@github.com:waltsun/test.git
+git log  # 显示该branch下的提交记录
+git diff <commit-id-1> <commit-id-2>  # 比较两个commit之间的差别
 ```
 
 更详细的在 [廖雪峰的网站](https://www.liaoxuefeng.com/wiki/896043488029600)

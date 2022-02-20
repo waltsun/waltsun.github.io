@@ -19,6 +19,8 @@ Trevor Darrell, UC Berkeley.
 
 全卷积网络（Fully Convolutional Networks），CVPR2015
 
+Cited 25307.
+
 将deep, coarse layer输出的semantic information和shallow, fine layer输出的appearance information结合。
 
 通过反卷积层将最后一层卷积层输出恢复成原尺寸，对每个像素做预测。
@@ -62,6 +64,8 @@ Philipp Fischer, Computer Science Department and BIOSS Centre for Biological Sig
 Thomas Brox, Computer Science Department and BIOSS Centre for Biological Signalling Studies, University of Freiburg, Germany.
 
 MICCAI 2015
+
+Cited 38166
 
 使用小规模数据集。
 

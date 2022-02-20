@@ -15,6 +15,8 @@ Wei Wang, Department of Computer Science, National University of Singapore.
 
 AAAI2020
 
+Cited 11
+
 few-shot的常见方法:
 
 - metric-learning = prototypical network: 将图像映射到metric space，保证相同类别图像的输出比较靠近。class agnostic knowledge

@@ -15,12 +15,13 @@ Joshua B. Tenenbaum, MIT CSAIL;
 
 Phillip Isola, MIT CSAIL.
 
-
 [arXiv首页](https://arxiv.org/abs/2003.11539)
 
 [pdf](https://arxiv.org/pdf/2003.11539.pdf)
 
 ECCV2020
+
+Cited 270
 
 - 用合理的task训练出好的representation learner，效果可以超过大多数复杂的few-shot算法
 - self-distillation可以进一步提高效果

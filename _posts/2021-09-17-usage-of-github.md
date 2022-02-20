@@ -20,6 +20,7 @@ git log --pretty=oneline
 git remote add origin git@github.com:waltsun/test.git  # 本地git绑定远程空repo
 git push
 git clone git@github.com:waltsun/test.git
+git checkout -b dev origin/dev  # 将远程的dev分支抓取到本地，并在本地创建新分支dev
 git log  # 显示该branch下的提交记录
 git diff <commit-id-1> <commit-id-2>  # 比较两个commit之间的差别
 ```

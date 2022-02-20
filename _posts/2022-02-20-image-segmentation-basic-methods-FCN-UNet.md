@@ -5,6 +5,8 @@ subtitle: 文章阅读系列
 tags: [paper reading]
 ---
 
+图像分割经典方法：FCN & U-Net。
+
 # FCN
 
 [Fully Convolutional Networks for Semantic Segmentation](https://arxiv.org/abs/1411.4038)

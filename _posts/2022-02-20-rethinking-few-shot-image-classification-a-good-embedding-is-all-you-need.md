@@ -9,7 +9,7 @@ Yonglong Tian, MIT CSAIL;
 
 Yue Wang, MIT CSAIL;
 
-Dilip Krishnan, 1MIT CSAIL 2Google Research;
+Dilip Krishnan, Google Research;
 
 Joshua B. Tenenbaum, MIT CSAIL;
 

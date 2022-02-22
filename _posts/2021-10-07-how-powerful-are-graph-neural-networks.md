@@ -2,7 +2,7 @@
 layout: post
 title: "How Powerful are Graph Neural Networks?"
 subtitle: 文章阅读系列
-tags: [paper reading]
+tags: [paper reading, Gragh]
 ---
 
 Keyulu Xu, MIT;

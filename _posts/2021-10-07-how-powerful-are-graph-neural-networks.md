@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How Powerful are Graph Neural Networks?"
-subtitle: 文章阅读系列
+subtitle: GIN
 tags: [paper reading, Gragh]
 ---
 

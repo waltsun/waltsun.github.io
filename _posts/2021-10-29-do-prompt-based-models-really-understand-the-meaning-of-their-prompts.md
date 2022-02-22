@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Do Prompt-Based Models Really Understand the Meaning of their Prompts?"
-subtitle: 文章阅读系列
+subtitle: prompt分析类文章
 tags: [paper reading, NLP]
 ---
 

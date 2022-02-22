@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Power of Scale for Parameter-Efficient Prompt Tuning
-subtitle: 文章阅读系列
+subtitle: prompt-tuning
 tags: [paper reading, NLP]
 ---
 

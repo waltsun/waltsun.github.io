@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Prefix-Tuning: Optimizing Continuous Prompts for Generation"
-subtitle: 文章阅读系列
+subtitle: prefix-tuning
 tags: [paper reading, NLP]
 ---
 

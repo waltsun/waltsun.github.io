@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Rethinking Few-Shot Image Classification: A Good Embedding is All You Need?"
-subtitle: 文章阅读系列
-tags: [paper reading]
+subtitle: few-shot图像分类
+tags: [paper reading, CV]
 ---
 
 Yonglong Tian, MIT CSAIL;

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Impact of Base Dataset Design on Few-Shot Image Classification"
-subtitle: 文章阅读系列
-tags: [paper reading]
+subtitle: few-shot图像分类分析类文章
+tags: [paper reading, CV]
 ---
 
 Othman Sbai, Facebook AI Research & LIGM (UMR 8049) - Ecole des Ponts, UPE;

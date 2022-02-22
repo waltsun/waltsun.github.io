@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "One-Shot Image Classification by Learning to Restore Prototypes"
-subtitle: 文章阅读系列
-tags: [paper reading]
+subtitle: RestoreNet,one-shot图像分类
+tags: [paper reading, CV]
 ---
 
 Wanqi Xue, Department of Computer Science, National University of Singapore;

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "图像分割经典方法：FCN & U-Net"
-subtitle: 文章阅读系列
-tags: [paper reading]
+subtitle: 图像分割FCN&U-Net
+tags: [paper reading, CV]
 ---
 
 图像分割经典方法：FCN & U-Net。

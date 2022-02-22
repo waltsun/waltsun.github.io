@@ -2,7 +2,7 @@
 layout: post
 title: The Power of Scale for Parameter-Efficient Prompt Tuning
 subtitle: 文章阅读系列
-tags: [paper reading]
+tags: [paper reading, NLP]
 ---
 
 Brian Lester;

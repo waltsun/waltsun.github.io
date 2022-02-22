@@ -2,7 +2,7 @@
 layout: post
 title: "Prefix-Tuning: Optimizing Continuous Prompts for Generation"
 subtitle: 文章阅读系列
-tags: [paper reading]
+tags: [paper reading, NLG]
 ---
 
 Xiang Lisa Li, Stanford University;

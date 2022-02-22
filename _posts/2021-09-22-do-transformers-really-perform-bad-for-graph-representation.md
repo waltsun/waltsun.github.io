@@ -2,7 +2,7 @@
 layout: post
 title: "Do Transformers Really Perform Bad for Graph Representation?"
 subtitle: 文章阅读系列
-tags: [paper reading]
+tags: [paper reading, Gragh]
 ---
 
 Chengxuan Ying, Dalian University of Technology;

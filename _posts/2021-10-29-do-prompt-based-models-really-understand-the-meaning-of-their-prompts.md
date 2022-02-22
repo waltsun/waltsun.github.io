@@ -2,7 +2,7 @@
 layout: post
 title: "Do Prompt-Based Models Really Understand the Meaning of their Prompts?"
 subtitle: 文章阅读系列
-tags: [paper reading]
+tags: [paper reading, NLP]
 ---
 
 Albert Webson, Department of Computer Science, Brown University, Department of Philosophy, Brown University;

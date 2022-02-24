@@ -17,6 +17,10 @@ Cees G. M. Snoek, ISIS Lab, University of Amsterdam.d
 
 [code](https://github.com/psmmettes/hpn)
 
+NIPS 2019.
+
+Cited 41.
+
 可做回归/分类任务。
 
 # 分类

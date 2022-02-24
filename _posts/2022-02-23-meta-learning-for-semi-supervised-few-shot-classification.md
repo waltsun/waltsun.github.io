@@ -27,6 +27,10 @@ Richard S. Zemel, University of Toronto & CIFAR & Vector Institute.
 
 [code](https://github.com/renmengye/few-shot-ssl-public)
 
+ICLR 2018.
+
+Cited 740.
+
 # soft k-means
 
 ![](../assets/paper_img/soft_k-means.png)

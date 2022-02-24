@@ -2,7 +2,7 @@
 layout: post
 title: "Understanding Contrastive Representation Learning through Alignment and Uniformity on the Hypersphere"
 subtitle: align&unifrom,对比学习分析类文章
-tags: [paper reading, basic method]
+tags: [paper reading, CV, NLP, Contrastive Learning]
 ---
 
 Tongzhou Wang, MIT Computer Science & Artificial Intelligence Lab (CSAIL);

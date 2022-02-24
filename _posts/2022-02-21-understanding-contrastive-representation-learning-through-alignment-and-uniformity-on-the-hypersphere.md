@@ -13,6 +13,8 @@ Phillip Isola, MIT Computer Science & Artificial Intelligence Lab (CSAIL).
 
 [pdf](../assets/wang20k.pdf)
 
+[Supplementary](http://proceedings.mlr.press/v119/wang20k/wang20k-supp.pdf)
+
 [code](https://github.com/SsnL/align_uniform)
 
 ICML 2020.

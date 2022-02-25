@@ -32,3 +32,11 @@ TODO
 
 用复杂的方法定位prototype；
 用word embedding来帮助prototype的更新。
+
+# result
+
+## classification
+
+CIFAR-100: 65.0+-0.3
+
+ImageNet-200: 44.7+-0.3

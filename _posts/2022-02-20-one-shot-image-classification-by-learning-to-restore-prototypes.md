@@ -62,3 +62,13 @@ metric-learning用大规模带标注数据训练prototypical network(简记为Pr
 ![](../assets/paper_img/RestoreNet_1.png)
 
 ![](../assets/paper_img/RestoreNet_2.png)
+
+# result
+
+miniImageNet: 59.28+-0.20, 61.14+-0.22(self-training)
+
+CIFAR-100: 66.87+-0.94, 69.09+-0.97(self-training)
+
+Caltech-256: 64.10+-0.89, 68.28+-0.96(self-training)
+
+CUB-200: 74.32+-0.91, 76.85+-0.95(self-training)
